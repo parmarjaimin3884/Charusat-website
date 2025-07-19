@@ -1,3 +1,3 @@
 # Charusat-website
 
-here is my code of html and css
+Here is my code of HTML and CSS.
