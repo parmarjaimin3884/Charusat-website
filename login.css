@@ -1,0 +1,185 @@
+*{
+    font-family: poppins;
+    
+    
+}
+body{
+     /* background: linear-gradient(to right, #ece9e6, #ffffff); */
+    /* OR use an image */
+    /* background: url("12067351_4884794.jpg   ") ; */
+    /* background-size: cover; */
+    background: white;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /*Center vertically*/
+   
+}
+
+.loginContainer{
+    
+    width: 315px;
+    height: 425px;
+    border: 1px solid white;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin:145px;
+    border-radius: 30px;
+    animation: fadeIn 0.6s ease-out;
+   
+
+
+
+
+}
+
+.login{
+    font-size: 25px;
+    padding-top:20px ;
+
+    
+
+}
+
+.username{
+    
+    margin-top: 50px;
+    font-size: 18px;
+    
+    }
+
+
+
+
+.password{
+    margin-left: 2px;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.username input{
+    width: 242px;
+    height: 28px;
+    background: url(login.css);
+    border-radius: 10px;
+}
+
+.password input{
+    width: 242px;
+    height: 28px;
+    background: url(login.css);
+    border-radius: 10px;
+}
+
+
+
+ .fa-solid{ 
+        margin-right: 15px;
+
+} 
+
+.forgot{
+    margin-top:5px;
+}
+
+.forgot a{
+    text-decoration: none;
+    margin-left: 180px;
+    font-size:14px;
+
+}
+
+.forgot a:hover{
+    text-decoration: underline;
+
+}
+
+
+
+.btn{
+    margin-top:20px;
+    
+}
+
+.btn button{
+    
+    width: 252px;
+    height:38px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+
+}
+button:hover{
+
+    background-color: #444;
+    /* box-shadow: 0 0 10px #888; */
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #00c6ff;
+    cursor: pointer;
+    
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 600px) {
+    .loginContainer {
+        width: 90%;
+        padding: 20px;
+    }
+}
+
+
+button {
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  transition: 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+
+
+  
+}
+
+.remember {
+  color: #ccc;
+  display: flex;
+  margin-left:15px;
+}
+.remember input {
+  accent-color: #00f0ff;
+  margin-right: 8px;
+}
+
+::placeholder{
+    color: #ccc;
+    opacity: 70%;
+    padding:5px;
+}
+
+.register p{
+        margin-top: 25px;
+}
+.register a{
+
+    text-decoration: none;
+    padding-left: 1px;
+    
+}
+
+.register a:hover{
+
+    text-decoration: underline;
+
+}
+
+
+   
+
+
